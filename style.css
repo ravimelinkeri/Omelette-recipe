@@ -1,0 +1,189 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #FFDFD6;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 615px;
+    height: 1575px;
+    background-color: white;
+    margin-block: 50px;
+    border-radius: 10px;
+}
+
+/* Image proparties */
+
+.img-section img{
+    width: 550px;
+    height: 300px;
+    margin-inline: 30px;
+    margin-block: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 1, 0.2);
+}
+
+.heading{
+    padding-left: 30px;
+}
+
+.simple-para{
+    padding-inline: 30px;
+    font-size: 16px;
+}
+
+/* Prepartion time section */
+
+.prepartion-time{
+    background-color: #FFEBD4;
+    width: 550px;
+    height: 160px;
+    margin-top: 30px;
+    margin-inline: 30px;
+    border-radius: 10px;
+}
+
+.prepartion-time h4{
+    padding-inline: 25px;
+    padding-top: 25px;
+    color: #921A40;
+}
+
+.prepartion-list li{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.prepartion-list li span{
+    font-weight: 700;
+    
+}
+
+h2{
+    padding-left: 40px;
+    margin-top: 30px;
+    color: #921A40;
+
+}
+
+.Ingredient-list{
+    padding-left: 65px;
+    padding-right: 30px;
+    
+}
+
+.Ingredient-list li{
+    margin-bottom: 8px;
+}
+
+hr{
+    margin-inline: 30px;
+}
+
+.Instructions-list{
+    padding-left: 65px;
+    padding-right: 45px;
+}
+
+
+
+.Instructions-list li span{
+    font-weight: 700;
+}
+
+.Ingredient-list li span{
+    font-weight: 700;
+}
+
+.Nutrition{
+    padding-inline: 40px;
+}
+
+.name{
+    display: inline;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.name-value{
+    display: inline;
+    margin-left: 280px;
+    color: #921A40;
+    font-weight: 700;
+}
+
+/* Responsive Design for the minimum-width of 460px  */
+
+@media (max-width: 460px){
+    
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main{
+        width: 300px;
+        height: 1945px;
+    }
+
+    .img-section img{
+        width: 240px;
+        height: 150px;
+    }
+
+    .prepartion-time{
+        width: 240px;
+        height: 180px;
+    }
+
+    .prepartion-list li{
+        margin-left: 5px;
+    }
+
+    .name{
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .name-value{
+        margin-left: 80px;
+    }
+    
+
+}
+
+/* Responsive Design for the Width which lies between ( 460px to 650px ) */
+
+@media (min-width: 460px) and (max-width: 650px){
+
+    .main{
+        width: 400px;
+        height: 1665px;
+    }
+
+    .img-section img{
+        width: 340px;
+        height: 200px;
+    }
+
+    .prepartion-time{
+        width: 340px;
+    }
+
+    .name{
+        margin-left: 45px;
+    }
+
+    .name-value{
+        margin-left: 140px;
+    }
+    
+}
+
+
+
